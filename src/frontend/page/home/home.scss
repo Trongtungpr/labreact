@@ -1,0 +1,21 @@
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.banner1 {
+    background-image: url('https://source.unsplash.com/RCAhiGJsUUE/1920x1080')
+}
+.banner2 {
+    background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1920x1080')
+}
+.banner3 {
+    background-image: url('https://source.unsplash.com/lHGeqh3XhRY/1920x1080')
+}
+.navbar-shaw{
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+}
