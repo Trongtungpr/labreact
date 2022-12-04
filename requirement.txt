@@ -1,0 +1,4 @@
+url home "http://localhost:3000/"
+url dasboard "http://localhost:3000/dashboard"
+url api "http://localhost:3050/api/product" => product
+        "http://localhost:3050/api/users" => user
