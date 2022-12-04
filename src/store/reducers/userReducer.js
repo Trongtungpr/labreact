@@ -31,6 +31,23 @@ const userReducer = (state=initiaState,action) => {
                     isLoading :false,
                     data : [],
                 }
+            case actions.GET_ALL_USER :
+                return {
+                    ...state,
+                    isLoading :true,
+                }
+            case actions.GET_ALL_USER_SUCCESS :
+                return {
+                    ...state,
+                    isLoading :false,
+                    data : action.payload,
+                }
+            case actions.GET_ALL_USER_FAILURE:
+                return {
+                    ...state,
+                    isLoading :false,
+                    data : action.payload,
+                }
         default:
             return state;
     }

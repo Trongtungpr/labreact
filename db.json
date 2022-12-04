@@ -1,0 +1,97 @@
+{
+  "users": [
+    {
+      "email": "anhdp923fddfg99228889@gmail.com",
+      "password": "$2a$10$JnNT/aZ8knzA2zx4IY2gh.aKbScqQfMcRD6cdxH1VAOkBcAWfccBm",
+      "isStaff": false,
+      "isAdmin": false,
+      "id": 18
+    },
+    {
+      "email": "anhdp9999999@gmail.com",
+      "password": "$2a$10$D1OxhrwGtyy5GcX1D55LPOijumaoSX7bvxRv.jzNX1U2YA0OAVFWu",
+      "isStaff": false,
+      "isAdmin": false,
+      "id": 19
+    },
+    {
+      "email": "anhdpdep889@gmail.com",
+      "password": "$2a$10$VHkkfWAt2NPK/CTrY.VSae.N9WEpjGb8Lrp6SqdC7PN7FYQH0MWde",
+      "isStaff": true,
+      "isAdmin": false,
+      "id": 21
+    },
+    {
+      "email": "truong@gmail.com",
+      "password": "",
+      "isStaff": true,
+      "isAdmin": false,
+      "createdAt": "2022-12-04T10:39:11.995Z",
+      "updateAt": "2022-12-04T10:39:11.995Z",
+      "id": 22
+    },
+    {
+      "email": "truongdeptrai@gmail.com",
+      "password": "12345678",
+      "isStaff": true,
+      "isAdmin": false,
+      "createdAt": "2022-12-04T10:40:10.770Z",
+      "updateAt": "2022-12-04T10:40:10.770Z",
+      "id": 23
+    },
+    {
+      "email": "tung@gmail.com",
+      "password": "1234567",
+      "isStaff": true,
+      "isAdmin": false,
+      "createdAt": "2022-12-04T10:53:33.551Z",
+      "updateAt": "2022-12-04T10:53:33.551Z",
+      "id": 24
+    },
+    {
+      "email": "truoing435@gmail.com",
+      "password": "teryrty",
+      "isStaff": false,
+      "isAdmin": false,
+      "createdAt": "2022-12-04T10:54:56.091Z",
+      "updateAt": "2022-12-04T10:54:56.091Z",
+      "id": 25
+    }
+  ],
+  "product": [
+    {
+      "name": "CHERRY",
+      "price": "170",
+      "category": "Fruit",
+      "img": "https://technext.github.io/vegefoods/images/product-4.jpg",
+      "id": "448ec1cd-1403-4006-bb98-574176627f3d"
+    },
+    {
+      "id": "045af44d-44d9-4480-ac1f-1c8b97f7cf3b",
+      "name": "STRAWBERRY",
+      "price": "120.00",
+      "cart": "",
+      "img": "https://technext.github.io/vegefoods/images/product-2.jpg",
+      "category": "",
+      "like": ""
+    },
+    {
+      "id": "79d79917-c9af-4806-ab0e-587a2bf63758",
+      "name": "PURPLE CABBAGE",
+      "price": "120.00",
+      "cart": "",
+      "img": "https://technext.github.io/vegefoods/images/product-4.jpg",
+      "category": "",
+      "like": ""
+    },
+    {
+      "name": "AVOCADO",
+      "price": "200",
+      "category": "Fruit",
+      "img": "https://i.vietgiaitri.com/2020/9/28/anh-nhung-loai-trai-cay-ma-nguoi-dang-giam-can-nen-tranh-9fa-5258575.jpg",
+      "createdAt": "2022-12-04T15:54:36.645Z",
+      "updateAt": "2022-12-04T15:54:36.645Z",
+      "id": "GDeJVtn"
+    }
+  ]
+}

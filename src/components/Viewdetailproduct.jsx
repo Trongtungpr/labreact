@@ -3,7 +3,7 @@ import './scss/Viewdetailproduct.scss'
 
 
 const ViewDetailProduct = (props) => {
-
+  console.log(props.product)
   const [stateViewDetailProduct,setStateViewDetailProduct] = useState(props.product[0])
 
 
@@ -28,7 +28,8 @@ const ViewDetailProduct = (props) => {
               <p>
                 <span>{stateViewDetailProduct.price}</span>$
               </p>
-              <button class="button-buy" type="button">buy now</button>
+              { props.type != true &&
+              (<button class="button-buy" type="button">buy now</button>)}
             </div>
           </div>
         </div>

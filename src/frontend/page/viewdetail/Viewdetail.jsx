@@ -15,17 +15,17 @@ const ViewDetail = () => {
     const dispatch = useDispatch()
     const param = useParams()
 
-
+    console.log("itemdata",itemData)
     const FetProduct = useCallback(() => {
+        console.log(param.productslug)
         getProduct(param.productslug)
             .then(res =>
                 setItemData(res)
             )
     }, [param])
-
-    useEffect(() => {
+    useEffect(()=>{
         FetProduct()
-    },[dispatch])
+    },[])
     return (  
         <>
             <header>

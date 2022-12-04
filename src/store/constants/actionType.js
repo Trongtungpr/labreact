@@ -1,11 +1,14 @@
 export const AT_CHANGE_PASSWORD = 'AT_CHANGE_PASSWORD';
 export const AT_REGISTER_USER = 'AT_REGISTER_USER';
+export const GET_ALL_USER = 'GET_ALL_USER';
+export const GET_ALL_USER_SUCCESS = 'GET_ALL_USER_SUCCESS';
+export const GET_ALL_USER_FAILURE = 'GET_ALL_USER_FAILURE';
 //=========================================LOGIN============================================= //
 export const AT_LOGIN_USER = 'AT_LOGIN_USER';
 export const AT_LOGIN_USER_SUCCESS = 'AT_LOGIN_USER_SUCCES';
-export const AT_LOGIN_USER_FAILURE = 'AT_LOGIN_USER_FAILURE'
+export const AT_LOGIN_USER_FAILURE = 'AT_LOGIN_USER_FAILURE';
 
-export const AT_LOGOUT_USER ='AT_LOGOUT_USER'
+export const AT_LOGOUT_USER ='AT_LOGOUT_USER';
 // ========================================PRODUCT=========================================== //
 
 export const GET_ALL_PRODUCT = 'GET_ALL_PRODUCT';

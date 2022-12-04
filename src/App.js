@@ -5,6 +5,7 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 import ROUTES from './routers/contantroutes'
 import ViewDetail from './frontend/page/viewdetail/Viewdetail.jsx';
 import Cart from './frontend/page/cart/cart';
+import DashBoard from './frontend/page/dashboard/DashBoard';
 
 function App() {
   return (
@@ -39,6 +40,12 @@ function App() {
           <Cart/>
         }
       />
+        <Route
+          path ={ROUTES.dashboard}
+          element = {
+            <DashBoard/>
+          } 
+        />
       </Routes>
     </BrowserRouter>
   );

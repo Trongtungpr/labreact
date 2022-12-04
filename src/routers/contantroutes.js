@@ -3,6 +3,7 @@ const ROUTES = {
     cart: "/cart",
     home: "/",
     login : "login",
-    detailview:'/viewdetail'
+    detailview:'/viewdetail',
+    dashboard : '/dashboard'
 }
 export default ROUTES
